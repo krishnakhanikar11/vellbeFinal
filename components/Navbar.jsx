@@ -45,7 +45,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Popover className="w-full paddingX  fixed top-0 z-50  ">
+    <Popover className="w-full paddingX  fixed top-0 right-0 left-0 z-50  ">
       <div className="container-fluid mt-5 px-6 bg-white rounded-full">
         <div className="flex items-center justify-between border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
