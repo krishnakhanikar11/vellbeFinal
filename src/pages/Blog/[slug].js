@@ -1,6 +1,5 @@
 import { client } from 'lib/client';
 import React from 'react'
-import PortableText from 'react-portable-text';
 import { urlFor } from 'lib/client';
 import BlockContent from "@sanity/block-content-to-react";
 import Navbar from "../../../components/Navbar"
@@ -31,20 +30,19 @@ const Blog = ({ blog }) => {
         </div>
       </div>
 
-<div className='md:ml-40 md:mr-40'>
-<div className="paddingX paddingY  flex justify-center ">
-      <div className="wrapper">
-              <BlockContent
-                className="  text-justify"
-                blocks={blog.body}
-                imageOptions={{ w: 320, h: 240, fit: "max" }}
-                projectId="7g5u83mr"
-                dataset="production"
-              />
-            </div>
+      <div className="md:ml-40 md:mr-40">
+        <div className="paddingX paddingY  flex justify-center ">
+          <div className="wrapper">
+            <BlockContent
+              className="  text-justify"
+              blocks={blog.body}
+              imageOptions={{ w: 320, h: 240, fit: "max" }}
+              projectId="7g5u83mr"
+              dataset="production"
+            />
+          </div>
+        </div>
       </div>
-</div>
-      
 
       <div className="paddingX flexCenter">
         <div className="boxWidth">

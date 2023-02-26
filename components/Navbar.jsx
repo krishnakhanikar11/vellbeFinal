@@ -116,6 +116,9 @@ export default function Example() {
               )}
             </Popover>
 
+            <a href="/Expert" className="paragraph3">
+              Experts
+            </a>
             <a href="/Blog" className="paragraph3">
               Blogs
             </a>
@@ -204,6 +207,9 @@ export default function Example() {
 
               <div className="flex flex-col gap-6">
                 {" "}
+                <a href="/Expert" className="paragraph3">
+              Experts
+            </a>
                 <a href="/Blog" className="paragraph3">
                   Blogs
                 </a>
