@@ -4,6 +4,11 @@ const expert = {
     type:'document',
     fields:[
         {
+            name: 'position',
+            title:'Position',
+            type:'string',
+        },
+        {
             name: 'name',
             title:'Name',
             type:'string',
@@ -12,6 +17,10 @@ const expert = {
             name: 'slug',
             title:'Slug',
             type:'slug',
+            options: {
+                source: 'name',
+                maxLength:'90',
+            }
         },
         {
             name: 'expertize',
@@ -21,6 +30,11 @@ const expert = {
         {
             name: 'rate',
             title:'Rate',
+            type:'string',
+        },
+        {
+            name: 'experience',
+            title:'Experience',
             type:'string',
         },
         {
@@ -44,7 +58,7 @@ const expert = {
     ],
     preview:{
         select:{
-            title:'title',
+            title:'name',
         },
     },
 }
