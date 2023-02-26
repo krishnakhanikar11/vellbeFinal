@@ -43,34 +43,39 @@ export const steps = [
 export const faqs = [
   {
     id:1,
-    question: "What is your refund policy?",
-    ans: "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "What services does your website offer?",
+    ans: "Our website offers coaching, counseling, nutritional plans, support groups, and corporate wellness plans.",
   },
 
   {
     id:2,
-    question: "What is your refund policy?",
-    ans: "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "How do I schedule a coaching or counseling session?",
+    ans: "You can schedule a session by contacting us through our website or by calling us at the number provided on the website.",
   },
   {
     id:3,
-    question: "What is your refund policy?",
-    ans: "We recognize that every individual is unique and our.",
+    question: "What types of coaching and counseling do you offer?",
+    ans: "We offer a wide range of coaching and counseling services, including life coaching, career coaching, relationship counseling, and mental health counseling.",
   },
   {
     id:4,
-    question: "What is your refund policy?",
-    ans: "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "How do I know which type of coaching or counseling is right for me?",
+    ans: "Our team of experts will work with you to determine the best course of action based on your individual needs and goals.",
   },
   {
     id:5,
-    question: "What is your refund policy?",
-    ans: "We recognize that every individual is unique and our.",
+    question: "Can I customize my nutritional plan?",
+    ans: "Yes, our team of nutritionists will work with you to create a personalized plan that fits your specific dietary needs and goals.",
   },
   {
     id:6,
-    question: "What is your refund policy?",
-    ans: "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+    question: "How do I join a support group?",
+    ans: "You can join a support group by visiting the 'Support Groups' section of our website and selecting the group that is most appropriate for you.",
+  },
+  {
+    id:7,
+    question: "How do I set up a corporate wellness plan for my company?",
+    ans: "You can set up a corporate wellness plan by contacting us through the website or by calling us at the number provided on the website.",
   },
 ];
 
@@ -86,10 +91,10 @@ export const services = [
     mainContent:
       "Emotional well-being refers to a person's overall satisfaction and happiness with their life. It encompasses a range of positive emotions and feelings, including self-esteem, optimism, and resilience. Emotional well-being is important for physical and mental health, and can be maintained and improved through various practices such as self-care, mindfulness, exercise, and social support.",
     mainContent2:
-      "Emotional well-being refers to a person's overall satisfaction and happiness with their life. It encompasses a range of positive emotions and feelings, including self-esteem, optimism, and resilience. Emotional well-being is important for physical and mental health, and can be maintained and improved through various practices such as self-care, mindfulness, exercise, and social support.",
+      "We should understand the importance of acknowledging and expressing our emotional pain. Many people believe that they should hide their emotions, especially if they are negative, and not talk about them. However, the truth is that emotional pain is a natural and normal part of the human experience, and it's important to acknowledge and process it in order to heal and grow.",
     mainHeading: "Together we are Strong",
     quote:
-      "which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum",
+      "Emotional pain is not something that should be hidden away and never spoken about. There is truth in your pain, there is growth in your pain, but only if it's first brought out into the open.",
   },
 
   {
@@ -103,10 +108,10 @@ export const services = [
     mainContent:
       "Physical well-being refers to a state of good health and fitness that allows a person to lead a productive and fulfilling life. It encompasses various aspects of physical health, including good nutrition, exercise, adequate sleep, and preventative care. Maintaining physical well-being can help prevent or manage chronic diseases, improve mental health, and enhance overall quality of life. Taking care of one's physical health can be achieved through healthy habits such as regular exercise, a balanced diet, and avoiding harmful substances like tobacco and excessive alcohol consumption.",
     mainContent2:
-      "Emotional well-being refers to a person's overall satisfaction and happiness with their life. It encompasses a range of positive emotions and feelings, including self-esteem, optimism, and resilience. Emotional well-being is important for physical and mental health, and can be maintained and improved through various practices such as self-care, mindfulness, exercise, and social support.",
+      "Coaching can be an essential component of achieving and maintaining physical well-being. A qualified coach can provide guidance, support, and accountability to help individuals set and achieve fitness goals, overcome obstacles, and sustain healthy habits over time. They can also provide valuable feedback and adjustments to exercise techniques and training programs to optimize results and prevent injury. With the help of a coach, individuals can make more informed decisions about their physical health and receive the guidance needed to reach their full potential.",
     mainHeading: "Together we are Strong",
     quote:
-      "which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum",
+      "The greatest wealth is health.",
   },
 
   {
@@ -119,9 +124,9 @@ export const services = [
     mainContent:
       "Relationship well-being refers to the quality and satisfaction of the relationships a person has with others. This can encompass relationships with family, friends, romantic partners, and others in one's social network. A healthy and positive relationship is characterized by trust, communication, mutual support, and a sense of connection. Maintaining good relationships can enhance emotional well-being and lead to improved mental and physical health. It can also provide a sense of belonging and increase life satisfaction. To improve relationship well-being, individuals can work on communication skills, practice empathy, and cultivate gratitude and positivity in their relationships.",
     mainContent2:
-      "Emotional well-being refers to a person's overall satisfaction and happiness with their life. It encompasses a range of positive emotions and feelings, including self-esteem, optimism, and resilience. Emotional well-being is important for physical and mental health, and can be maintained and improved through various practices such as self-care, mindfulness, exercise, and social support.",
+      "Nurturing a relationship requires effort, but it is worth investing in for one's own happiness. Building a strong foundation through communication, trust, and mutual respect can lead to a more fulfilling and satisfying life. Remember to prioritize your relationship and prioritize your own well-being. Ultimately, a happy relationship can have a positive impact on all aspects of your life.",
     mainHeading: "Together we are Strong",
     quote:
-      "which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum",
+      "Invest in your relationship, it's the foundation of your happiness",
   },
 ];

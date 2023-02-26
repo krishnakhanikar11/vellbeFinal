@@ -16,13 +16,13 @@ const Footer = () => {
                 <h2 className="mb-6 text-sm font-semibold uppercase text-secondary">Services</h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                     <li className="mb-4">
-                        <a href="#" className="hover:underline">Coaching</a>
+                        <a href="/Service/Emotional-Well-Being" className="hover:underline">Emotional Well-Being</a>
                     </li>
                     <li className="mb-4">
-                        <a href="#" className="hover:underline">Mental health  </a>
+                        <a href="/Service/Physical-Well-Being" className="hover:underline">Physical Well-Being</a>
                     </li>
                     <li >
-                        <a href="#" className="hover:underline">Nutrition</a>
+                        <a href="/Service/Relationship-Well-Being" className="hover:underline">Relationship Well-Being</a>
                     </li>
                 </ul>
             </div>

@@ -116,10 +116,15 @@ export default function Example() {
               )}
             </Popover>
 
+            <a href="/Blog" className="paragraph3">
+              Blogs
+            </a>
+
             <a href="/FAQ" className="paragraph3">
               FAQs
             </a>
           </Popover.Group>
+
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
             <a
               href="https://wa.me/message/5YDDLL4SIQZYO1"
@@ -197,9 +202,15 @@ export default function Example() {
               </Disclosure>
               {/* ends here */}
 
-              <a href="/FAQ" className="paragraph3">
-                FAQs
-              </a>
+              <div className="flex flex-col gap-6">
+                {" "}
+                <a href="/Blog" className="paragraph3">
+                  Blogs
+                </a>
+                <a href="/FAQ" className="paragraph3">
+                  FAQs
+                </a>
+              </div>
             </div>
             <div className="space-y-6 py-6 px-5">
               <div>

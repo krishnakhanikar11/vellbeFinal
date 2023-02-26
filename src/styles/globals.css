@@ -31,6 +31,27 @@
 }
 
 
+.wrapper h1{
+  @apply font-poppins font-semibold xs:text-[30px] text-[32px] leading-[2.6rem]   w-full ;
+}
+
+.wrapper h2{
+  @apply font-poppins font-medium xs:text-[26px] text-[28px] leading-[2.6rem]   w-full  mb-4 mt-4;
+}
+
+.wrapper p{
+  @apply font-poppins font-normal text-greenPara text-[16px] md:text-[18px] leading-[26.8px] ;
+}
+
+.wrapper ul{
+  @apply font-poppins font-normal text-greenPara text-[16px] md:text-[18px] leading-[26.8px] list-disc mt-2 mb-2;
+}
+
+.wrapper li{
+  @apply  mt-2 mb-2;
+}
+
+
 
 .paragraph3{
   @apply font-poppins font-normal text-greenPara text-[16px] md:text-[18px] leading-[26.8px] ;
