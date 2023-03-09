@@ -61,6 +61,9 @@ export default function Example() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden space-x-10 md:flex">
+            <a href="/Aboutus" className="paragraph3">
+              About us
+            </a>
             <Popover className="relative">
               {({ open }) => (
                 <>
@@ -140,10 +143,10 @@ export default function Example() {
               />
             </a>
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfKK5XB5pIs3hFlVjz9_GXgqxFR2ZiYVbHkmskcJvzSTTzjHw/viewform"
               className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-primary px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
             >
-              BOOK NOW
+              UPCOMING EVENTS
             </a>
           </div>
         </div>
@@ -176,7 +179,14 @@ export default function Example() {
                   </Popover.Button>
                 </div>
               </div>
-
+              
+              <div className="flex flex-col gap-6 mt-4">
+                {" "}
+                <a href="/Aboutus" className="paragraph3">
+                  About us
+                </a>
+                
+              </div>
               {/* list */}
               <Disclosure>
                 {({ open }) => (
@@ -208,8 +218,8 @@ export default function Example() {
               <div className="flex flex-col gap-6">
                 {" "}
                 <a href="/Expert" className="paragraph3">
-              Experts
-            </a>
+                  Experts
+                </a>
                 <a href="/Blog" className="paragraph3">
                   Blogs
                 </a>
@@ -221,10 +231,10 @@ export default function Example() {
             <div className="space-y-6 py-6 px-5">
               <div>
                 <a
-                  href="#"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfKK5XB5pIs3hFlVjz9_GXgqxFR2ZiYVbHkmskcJvzSTTzjHw/viewform"
                   className="flex w-full items-center justify-center rounded-md border border-transparent bg-primary px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-secondary"
                 >
-                  BOOK NOW
+                  Upcoming events
                 </a>
                 <p className="mt-6 text-center text-base font-medium text-gray-500">
                   Want to connect with us?{" "}

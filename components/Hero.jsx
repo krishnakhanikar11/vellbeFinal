@@ -8,18 +8,18 @@ const Hero = () => {
         <div>
           <h1 className="heading2  text-primary tracking-[-4%]">
             We celebrate your first step towards{" "}
-            <span className="text-secondary ">Well-Being.</span>
+            <span className="text-secondary ">WellBeing.</span>
           </h1>
           <p className="paragraph mt-2 mb-16">
             Empowering you to live your best life
           </p>
 
-          <a href="https://wa.me/message/5YDDLL4SIQZYO1">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKK5XB5pIs3hFlVjz9_GXgqxFR2ZiYVbHkmskcJvzSTTzjHw/viewform">
             <button
               type="button"
               className="inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-[#E4EEDF] bg-[#2D5616] text-base"
             >
-              LEARN MORE
+              GET STARTED
             </button>
           </a>
         </div>

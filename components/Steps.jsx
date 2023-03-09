@@ -12,7 +12,7 @@ const Steps = () => {
         <div>
           <div className='md:w-[35%]'>
             <h1 className="heading3  text-primary tracking-[-4%]">
-              Vellbe life helps you in this journey in just{" "}
+            Vellbe<span className='font-normal'>Life</span> helps you in this journey in just{" "}
               <span className="text-secondary ">3 steps </span>
             </h1>
           </div>

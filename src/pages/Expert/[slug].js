@@ -46,12 +46,12 @@ const ExpertDetail = ({expert}) => {
               </span>
             </p>
             <div className="flex mt-6">
-            <a href="https://wa.me/message/5YDDLL4SIQZYO1">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKK5XB5pIs3hFlVjz9_GXgqxFR2ZiYVbHkmskcJvzSTTzjHw/viewform">
               <button
                 type="button"
                 className="inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-[#E4EEDF] bg-[#2D5616] text-base"
               >
-                Book now
+                GET IN TOUCH
               </button>
             </a>
           </div>

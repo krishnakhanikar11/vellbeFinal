@@ -16,10 +16,10 @@ const Services = () => {
         <div>
           <h1 className="heading3  text-primary tracking-[-4%]">
           Services we offer at{" "}
-            <span className="text-secondary ">VellBeLife. </span>
+            <span className="text-secondary ">VellBe<span className='font-normal'>Life.</span> </span>
           </h1>
           <p className="paragraph3 mt-2 mb-12 md:w-[60%]">
-          Our services start from INR 999
+          Our services start from INR 499
           </p>
         </div>
 

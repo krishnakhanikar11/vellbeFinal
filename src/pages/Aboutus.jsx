@@ -1,13 +1,10 @@
 import React from 'react'
-import { services } from '../../../constants/index.js';
 import Navbar from 'components/Navbar.jsx';
 import Footer from 'components/Footer.jsx';
 import Image from 'next/image.js';
 import Steps from 'components/Steps.jsx';
 
-
-const ServiceDetails = ({post}) => {
-  
+const Aboutus = () => {
   return (
     <div className="w-full overflow-hidden">
       <div className=" flexCenter">
@@ -16,16 +13,16 @@ const ServiceDetails = ({post}) => {
         </div>
       </div>
       <div
-        className="flexCenter bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${post.picturebg})`, height: "100vh" }}
+        className="flexCenter bg-cover bg-center bg-no-repeat bg-[url('/combine.png')]"
+        style={{  height: "100vh" }}
       >
         <div className="boxWidth">
           <div className="paddingY paddingX ">
             <h1 className="  heading2 text-white tracking-[-4%]">
-              {post.title}{" "}
+              About us
             </h1>
             <p className="md:w-2/4 font-poppins font-normal text-[#D2D2D2] text-[14px] md:text-[18px] leading-[30.8px] mt-2 mb-16">
-              {post.content}
+            Empowering you to live your best life
             </p>
           </div>
         </div>
@@ -39,10 +36,10 @@ const ServiceDetails = ({post}) => {
         <div className="boxWidth flex md:flex-row flex-col-reverse ">
           <div className="flex-col md:w-1/2">
             <p className="text-justify mb-8 paragraph3">
-              {post.mainContent}
+            Welcome to Vellbelife, a homegrown venture dedicated to improving three critical aspects of human well-being: emotional, physical, and relationship wellness.
             </p>
             <p className="text-justify paragraph3 mb-8">
-            {post.mainContent2}
+            At Vellbelife, we understand that these three areas are intertwined and essential for living a happy, healthy life. That's why we've created a platform that offers resources and tools to help you cultivate balance in each area.
             </p>
             <Image
               src="/quote.png"
@@ -51,7 +48,12 @@ const ServiceDetails = ({post}) => {
               height={60}
               className="w-[30px] h-[30px]"
             />
-            <p className="quoteFont">{post.quote}</p>
+            <p className="quoteFont">Our team of experts, they are second to none,<br />
+In well-being's aspects, they get things done,<br />
+Their passion for change is ever so strong,<br />
+For a radical shift, they strive all day long,<br />
+Emotional, physical, and relational, their aim,<br />
+To help you live life with wellness as your claim</p>
           </div>
           <div className="flex md:w-1/2 md:px-16 px-0 md:mb-0 mb-8">
             <h1 className="heading3">Together we are <span className="text-secondary">Strong</span></h1>
@@ -92,27 +94,4 @@ const ServiceDetails = ({post}) => {
   )
 }
 
-export async function getStaticProps({ params }) {
-  const post = services.find((p) => p.slug === params.slug)
-  return {
-    props: {
-      post,
-    },
-  }
-}
-
-export async function getStaticPaths() {
-  const paths = services.map((post) => ({
-    params: {
-      slug: post.slug.toString(),
-    },
-  }))
-
-  return {
-    paths,
-    fallback: false,
-  }
-}
-
-
-export default ServiceDetails;
+export default Aboutus

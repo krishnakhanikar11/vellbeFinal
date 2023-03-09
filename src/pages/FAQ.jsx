@@ -74,7 +74,7 @@ const FAQ = () => {
                 type="button"
                 className="inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-[#E4EEDF] bg-[#2D5616] text-base"
               >
-                GET IN TOUCH
+                CONTACT US
               </button>
             </a>
           </div>

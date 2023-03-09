@@ -14,7 +14,7 @@ export const cares = [
   {
     id:3,
     title: "Live events",
-    content: "We offer offline events for a shared wellness experience. ",
+    content: "We offer offline and online events for a shared wellness experience. ",
     bgImg: "/pattern3.png",
   },
 ] 
@@ -77,6 +77,7 @@ export const faqs = [
     question: "How do I set up a corporate wellness plan for my company?",
     ans: "You can set up a corporate wellness plan by contacting us through the website or by calling us at the number provided on the website.",
   },
+  
 ];
 
 export const services = [
