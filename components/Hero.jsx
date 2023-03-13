@@ -27,7 +27,7 @@ const Hero = () => {
           <a href="https://calendly.com/vivekbehl">
             <button
               type="button"
-              className="mt-5 w-full md:mt-0 md:w-auto outline outline-offset-2 outline-primary inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-primary bg-white text-base hover:text-secondary"
+              className="mt-5 w-full md:mt-0 md:w-auto outline outline-offset-0gt outline-primary inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-primary bg-white text-base hover:text-secondary"
             >
               BOOK A VIDEO CALL
             </button>
