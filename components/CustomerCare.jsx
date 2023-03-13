@@ -8,7 +8,7 @@ const CustomerCare = () => {
       <div>
         <div className="md:w-[40%] mb-12">
           <h1 className="heading3  text-primary tracking-[-4%]">
-            We offer our custom-made wellness{" "}
+            We offer our wellness{" "}
             <span className="text-secondary  ">Services through. </span>
           </h1>
         </div>

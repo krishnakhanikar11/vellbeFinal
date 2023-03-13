@@ -14,14 +14,26 @@ const Hero = () => {
             Empowering you to live your best life
           </p>
 
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKK5XB5pIs3hFlVjz9_GXgqxFR2ZiYVbHkmskcJvzSTTzjHw/viewform">
+<div className="flex-col md:flex-row gap-x-5">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfKK5XB5pIs3hFlVjz9_GXgqxFR2ZiYVbHkmskcJvzSTTzjHw/viewform">
             <button
               type="button"
-              className="inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-[#E4EEDF] bg-[#2D5616] text-base"
+              className="w-full md:mt-0 md:w-auto md:mr-4 inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-[#E4EEDF] bg-[#2D5616] text-base"
             >
               GET STARTED
             </button>
           </a>
+
+          <a href="https://calendly.com/vivekbehl">
+            <button
+              type="button"
+              className="mt-5 w-full md:mt-0 md:w-auto inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-primary bg-white text-base hover:text-secondary"
+            >
+              BOOK A VIDEO CALL
+            </button>
+          </a>
+</div>
+          
         </div>
       </div>
       <div className="flex-1 flex flexCenter md:my-0 my-10 ">
