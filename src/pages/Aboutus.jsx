@@ -52,7 +52,7 @@ const Aboutus = () => {
 In well-being's aspects, they get things done,<br />
 Their passion for change is ever so strong,<br />
 For a radical shift, they strive all day long,<br />
-Emotional, physical, and relational, their aim,<br />
+Emotional, physical and relational, their aim,<br />
 To help you live life with wellness as your claim</p>
           </div>
           <div className="flex md:w-1/2 md:px-16 px-0 md:mb-0 mb-8">
