@@ -1,14 +1,16 @@
 import { client } from 'lib/client';
-import React from 'react'
+import React, { useState } from 'react';
 import { urlFor } from 'lib/client';
 import BlockContent from "@sanity/block-content-to-react";
 import Navbar from "../../../components/Navbar"
 import Footer from 'components/Footer';
+import Form from 'components/Form';
 
 
 
-
-const Events = ({ blog }) => {
+const Events = ({ event }) => {
+  
+  // const [paymentLink, setPaymentLink] = useState("");
   return (
     <div className="w-full overflow-hidden">
       <div className=" flexCenter">
@@ -19,14 +21,15 @@ const Events = ({ blog }) => {
       <div
         className="flexCenter bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(${urlFor(blog.bgImage)})`,
+          backgroundImage: `url(${urlFor(event.bgImage)})`,
           height: "100vh",
         }}
       >
         <div className="boxWidth">
           <div className="paddingY paddingX md:w-[60%]">
-            <h1 className="heading2 text-white tracking-[-4%]">{blog.title}</h1>
+            <h1 className="heading2 text-white tracking-[-4%]">{event.title}</h1>
           </div>
+
         </div>
       </div>
 
@@ -35,7 +38,7 @@ const Events = ({ blog }) => {
           <div className="wrapper">
             <BlockContent
               className="  text-justify"
-              blocks={blog.body}
+              blocks={event.body}
               imageOptions={{ w: 320, h: 240, fit: "max" }}
               projectId="7g5u83mr"
               dataset="production"
@@ -43,6 +46,31 @@ const Events = ({ blog }) => {
           </div>
         </div>
       </div>
+
+      <div className="flex mt-6 justify-center">
+      <a href="https://forms.gle/zWy3uZ6y8YkJV2ya8">
+        <button
+          type="button"
+          className="inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-[#E4EEDF] bg-[#2D5616] text-base"
+        >
+          Register for event
+        </button>
+      </a>
+      </div>
+
+      {/* <div className="md:ml-40 md:mr-40">
+        <div className="paddingX flexCenter">
+        <div className="boxWidth">
+        <Form />
+        {paymentLink && (
+          <div>
+            <h2>Payment Link</h2>
+            <p>{paymentLink.link_url}</p>
+          </div>
+        )}
+        </div>
+      </div>
+      </div> */}
 
       <div className="paddingX flexCenter">
         <div className="boxWidth">
@@ -58,14 +86,14 @@ const Events = ({ blog }) => {
 
 /* we need to create our query that fetches every post but only return slug.current value, then give that query to our client.fetch  */
 export async function getStaticPaths() {
-  const query = `*[_type == "blog"]{'slug' : slug.current}`;
-  const blogs = await client.fetch(query);
+  const query = `*[_type == "event"]{'slug' : slug.current}`;
+  const events = await client.fetch(query);
 
   /* for each post we create url and assigning it as params for getStaticPaths to render at build time */
   const paths =
-    blogs?.map((blog) => ({
+    events?.map((event) => ({
       params: {
-        slug: blog.slug,
+        slug: event.slug,
       },
     })) || [];
 
@@ -76,7 +104,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const query = `*[_type == "blog" && slug.current == $slug]{
+  const query = `*[_type == "event" && slug.current == $slug]{
         _id,
     title,
     publishedAt,
@@ -88,10 +116,10 @@ export async function getStaticProps({ params }) {
     }`;
 
   const options = { slug: params.slug };
-  const blogs = await client.fetch(query, options);
+  const events = await client.fetch(query, options);
 
   return {
-    props: { blog: blogs[0] },
+    props: { event: events[0] },
   };
 }
 

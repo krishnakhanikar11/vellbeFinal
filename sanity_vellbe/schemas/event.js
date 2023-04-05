@@ -1,5 +1,5 @@
 const event = {
-    title: 'Events',
+    title: 'Event',
     name:'event',
     type:'document',
     fields:[
