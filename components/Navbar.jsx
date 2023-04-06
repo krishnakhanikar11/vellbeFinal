@@ -122,6 +122,9 @@ export default function Example() {
             <a href="/Expert" className="paragraph3">
               Experts
             </a>
+            <a href="/Event" className="paragraph3">
+              Events
+            </a>
             <a href="/Blog" className="paragraph3">
               Blogs
             </a>
@@ -222,6 +225,9 @@ export default function Example() {
                 </a>
                 <a href="/Blog" className="paragraph3">
                   Blogs
+                </a>
+                <a href="/Event" className="paragraph3">
+                  Events
                 </a>
                 <a href="/FAQ" className="paragraph3">
                   FAQs
