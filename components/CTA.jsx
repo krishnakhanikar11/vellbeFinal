@@ -13,7 +13,7 @@ const CTA = () => {
           We at VellBe<span className='font-normal'>Life</span> await your arrival.{" "}
           <span className="text-secondary ">Join us. </span>
         </h1>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKK5XB5pIs3hFlVjz9_GXgqxFR2ZiYVbHkmskcJvzSTTzjHw/viewform">
+        <a href="https://forms.gle/znZ65mb9egjkz4CCA">
           <button
             type="button"
             className=" inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-[#E4EEDF] bg-[#2D5616] text-base"
