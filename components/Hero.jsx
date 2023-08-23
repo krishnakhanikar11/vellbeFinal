@@ -15,7 +15,7 @@ const Hero = () => {
           </p>
 
 <div className="flex-col md:flex-row gap-x-5">
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSfKK5XB5pIs3hFlVjz9_GXgqxFR2ZiYVbHkmskcJvzSTTzjHw/viewform">
+<a href="https://forms.gle/znZ65mb9egjkz4CCA">
             <button
               type="button"
               className="w-full md:mt-0 md:w-auto md:mr-4 inline-flex items-center justify-center rounded-md font-medium pl-6 pr-6 pt-3 pb-3 text-[#E4EEDF] bg-[#2D5616] text-base"
